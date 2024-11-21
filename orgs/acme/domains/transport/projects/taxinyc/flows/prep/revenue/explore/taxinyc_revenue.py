@@ -42,4 +42,4 @@ revenue_by_borough_df.display()
 
 # COMMAND ----------
 
-
+max_passenger = trips_df.select('passenger_count').max()
